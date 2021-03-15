@@ -1,0 +1,53 @@
+#LoginImage{
+    background:linear-gradient(0deg, rgba(49, 48, 49, 0.8), rgba(34, 31, 33, 0.8)), url(/assests/LoginImage.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    padding-left: 140px;
+    padding-top: 180px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    
+      
+    
+  
+
+}
+
+#SignUpImage{
+    background:linear-gradient(0deg, rgba(49, 48, 49, 0.8), rgba(34, 31, 33, 0.8)), url(/assests/LoginImage.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    padding-left: 140px;
+    padding-top: 180px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+#rowDiv{
+    /* width: 80%; */
+    
+    margin: 50px 46px;
+    background-color: lightgray;
+    /* display: inline; */
+     
+}
+
+#colDiv{
+    padding-top: 100px;
+    padding-left: 120px;
+}
+#createDiv{
+    margin: auto;
+    width: 80%;
+    padding-top: 100px;
+    padding-left: 120px;
+    display:  none;
+    background-color: lightgray;
+}
+
+#colDivsignup{
+    padding-left: 120px;
+}

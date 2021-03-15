@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>sirSyedProject</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/stylesheet/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    
+    
+</head>
+<body>
+
+    <header class="header">
+        <nav id="NavBar" class="navbar fixed-top navbar-expand-sm bg-transparent navbar-light bg-light container">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <img src="assests/logo1.png" alt="">
+
+
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active rounded">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Categories</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacts</a>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Pages</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">About Us</a>
+                            <a class="dropdown-item" href="#">Services</a>
+                            <a class="dropdown-item" href="#">Testimonals</a>
+                            <a class="dropdown-item" href="#">FAQs</a>
+                        </div>
+
+                    </li>
+                </ul>
+
+                <a style="margin:5px;" type="button" class="btn btn-success" href="pages/accounts.html"><i
+                        class="fa fa-user" aria-hidden="true"></i>My Account</a>
+                <a style="margin:5px;" type="button" class="btn btn-success" href="pages/ads.html"><i
+                        class="fa fa-edit"></i>Post An Add</a>
+                <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+            </div>
+        </nav>
+
+        <div style="margin-top: 80px;">
+            <h1 id="welcomeHeading">Welcome To <span style="color: green;">Our Store</span> </h1>
+            <p id="startingPara">Buy And Sell Everything From Used Cars To Mobile Phones And Computers,<br>
+                Or Search For Property, Jobs And More</p>
+        </div>
+
+
+        <div>
+            <form id="firstForm" action="">
+                <div class="searchDivs">
+                    <i style="font-size:24px" class="fa">&#xf040;</i>
+                    <input type="text" placeholder="What are you Looking For" class="inputs">
+                </div>
+                <div class="searchDivs">
+                    <i style="font-size:24px" class="fa">&#xf041;</i>
+                    <select class="form-select inputs" aria-label="Default select example" class="inputs">
+                        <option selected>All Locations</option>
+                        <option value="1">Pakistan</option>
+                        <option value="2">Turkey</option>
+                        <option value="3">Saudia Arabia</option>
+                        <option value="3">Duabi</option>
+                        <option value="3">China</option>
+                    </select>
+                </div>
+
+                <div class="searchDivs">
+
+                    <i style="font-size:24px" class="fa fa-list-alt" aria-hidden="true"></i>
+                    <select class="form-select inputs" aria-label="Default select example">
+                        <option selected>Categories</option>
+                        <option value="1">Mobiles</option>
+                        <option value="2">Laptop</option>
+                        <option value="3">Services</option>
+                        <option value="3">Electronics</option>
+                        <option value="3">Training</option>
+                    </select>
+
+                </div>
+
+
+                <button id="search-btn">
+                    <i style="font-size:24px" class="fa">&#xf002;</i>
+                </button>
+            </form>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <h1 class="productCategories">Product Categories</h1>
+        <hr style="height: 5px; background-color: green; width: 20%;">
+        <div class="card-columns py-4">
+            <div class="card shadow">
+                <img class="card-img-top" src="assests/vechicles.jpeg" alt="">
+                <div class="card-body">
+                    <i class="fa fa-car"></i>
+                    <h4 class="card-title">Vechicle</h4>
+                </div>
+            </div>
+            <div class="card shadow">
+                <img class="card-img-top" src="assests/laptopes.jpg" alt="">
+                <div class="card-body">
+                    <i class="fa fa-laptop"></i>
+                    <h4 class="card-title">Laptops</h4>
+
+                </div>
+            </div>
+
+            <div class="card shadow">
+                <img class="card-img-top" src="assests/mobiles.jpeg" alt="">
+                <div class="card-body">
+                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                    <h4 class="card-title">Mobiles</h4>
+
+                </div>
+            </div>
+
+            <div class="card shadow">
+                <img class="card-img-top" src="assests/electronocs.jpeg" alt="">
+                <div class="card-body">
+                    <i class="fa fa-television" aria-hidden="true"></i>
+                    <h4 class="card-title">Electronics</h4>
+
+                </div>
+            </div>
+
+            <div class="card shadow">
+                <img class="card-img-top" src="assests/computer1.jpeg" alt="">
+                <div class="card-body">
+                    <i class="fa fa-desktop" aria-hidden="true"></i>
+                    <h4 class="card-title">Computers</h4>
+
+                </div>
+            </div>
+
+            <div class="card shadow">
+                <img class="card-img-top" src="assests/jobs.jpeg" alt="">
+                <div class="card-body">
+                    <i class="fa fa-user-md"></i>
+                    <h4 class="card-title">Jobs</h4>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div>
+        <h1 class="productCategories">Latest Product</h1>
+        <hr style="height: 5px; background-color: green; width: 20%;">
+    </div>
+
+    <div class="container card-columns">
+        <div class="card shadow">
+            <img class="card-img-top" src="assests/./img-12.jpg" alt="">
+            <div class="card-body">
+                <h4 class="card-title text-left">Office Furnitures <i class="fa fa-heart" aria-hidden="true"></i></h4>
+            </div>
+        </div>
+        <div class="card shadow">
+            <img class="card-img-top" src="assests/./img2.jpg" alt="">
+            <div class="card-body">
+                <h4 class="card-title text-left">Fresh Macbook Pro 2017 <i class="fa fa-heart" aria-hidden="true"></i>
+                </h4>
+            </div>
+        </div>
+        <div class="card shadow">
+            <img class="card-img-top" src="assests/./img-11.jpg" alt="">
+            <div class="card-body">
+                <h4 class="card-title text-left">Canon Camera <i class="fa fa-heart" aria-hidden="true"></i></h4>
+            </div>
+        </div>
+
+        <div class="card shadow">
+            <img class="card-img-top" src="assests/apple.jpg" alt="">
+            <div class="card-body">
+                <h4 class="card-title text-left">Apple iPhone X<i class="fa fa-heart" aria-hidden="true"></i></h4>
+            </div>
+        </div>
+
+
+        <div class="card shadow">
+            <img class="card-img-top" src="assests/room.jpg" alt="">
+            <div class="card-body">
+                <h4 class="card-title text-left">Amazing Room for Rent <i class="fa fa-heart" aria-hidden="true"></i>
+                </h4>
+            </div>
+        </div>
+
+
+        <div class="card shadow">
+            <img class="card-img-top" src="assests/nootbook.jpg" alt="">
+            <div class="card-body">
+                <h4 class="card-title text-left">Custom Notebooks<i class="fa fa-heart" aria-hidden="true"></i></h4>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <div>
+        <h1 class="productCategories">Featured Product</h1>
+        <hr style="height: 5px; background-color: green; width: 20%;">
+    </div>
+
+    <div class="container">
+        <div class="card-columns py-4">
+            <div class="card shadow">
+                <img class="card-img-top" src="assests/holder.js/100x180/" alt="">
+                <div class="card-body">
+                    <i class="fa fa-smile-o" aria-hidden="true"></i>
+                    <h4 class="card-title">User Friendly</h4>
+                    <p class="paraforservices">Our Website is User-Friendly with all the users</p>
+                </div>
+            </div>
+            <div class="card shadow">
+                <img class="card-img-top" src="assests/holder.js/100x180/" alt="">
+                <div class="card-body">
+                    <i class="fa fa-book" aria-hidden="true"></i>
+                    <h4 class="card-title">Full Documented</h4>
+                    <p class="paraforservices"> Our Documentation is fully understood by our users</p>
+
+
+                </div>
+            </div>
+
+            <div class="card shadow">
+                <img class="card-img-top" src="assests/holder.js/100x180/" alt="">
+                <div class="card-body">
+                    <i class="fa fa-cog" aria-hidden="true"></i>
+                    <h4 class="card-title">Great Features</h4>
+                    <p class="paraforservices"> Great services provide by our team to the user</p>
+
+                </div>
+            </div>
+
+            <div class="card shadow">
+                <img class="card-img-top" src="assests/holder.js/100x180/" alt="">
+                <div class="card-body">
+                    <i class="fa fa-television" aria-hidden="true"></i>
+                    <h4 class="card-title">Mobile Compatible</h4>
+                    <p class="paraforservices"> Compatible in all the accesories of. Easy to use in laptop,Mobile or
+                        Desktop</p>
+
+                </div>
+            </div>
+
+            <div class="card shadow">
+                <img class="card-img-top" src="assests/holder.js/100x180/" alt="">
+                <div class="card-body">
+                    <i class="fa fa-paint-brush"></i>
+                    <h4 class="card-title">Modern and Clean Design</h4>
+                    <p class="paraforservices">Our Websites is clean and modern for another e-commerce website. </p>
+
+                </div>
+            </div>
+
+            <div class="card shadow">
+                <img class="card-img-top" src="assests/holder.js/100x180/" alt="">
+                <div class="card-body">
+                    <i class="fa fa-adjust"></i>
+                    <h4 class="card-title">Adjustable</h4>
+                    <p class="paraforservices">Our Websites is adjustable for all the users. Easy to use with all the
+                        customer </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <section class="counter-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 work-counter-widget text-center">
+                    <div class="counter">
+                        <div class="icon">
+                        </div>
+                        <div class="counterUp">
+                            <p class="paraclassOfCounter"></p>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter">
+                        <div class="icon">
+                            <div class="counterUp">
+                                <p class="paraclassOfCounter"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter">
+                        <div class="icon">
+                            <div class="counterUp">
+                                <p class="paraclassOfCounter"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter">
+                        <div class="icon">
+                            <div class="counterUp">
+                                <p class="paraclassOfCounter"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div>
+        <h1 class="productCategories">Testimonals</h1>
+        <hr style="height: 5px; background-color: green; width: 20%;">
+    </div>
+
+
+    <!-- Section: Testimonials v.1 -->
+    <section class="text-center my-5 p-1">
+
+        <!-- Section heading -->
+        <!-- <h2 class="h1-responsive font-weight-bold my-5">Testimonials</h2> -->
+        <!-- Section description -->
+        <!-- <p class="dark-grey-text w-responsive mx-auto mb-5"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+
+        <!-- Grid row -->
+        <div class="row">
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+                <!--Card-->
+                <div class="card testimonial-card">
+                    <!--Background color-->
+                    <div class="card-up info-color"></div>
+                    <!--Avatar-->
+                    <div class="avatar mx-auto white">
+                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg"
+                            class="rounded-circle img-fluid">
+                    </div>
+                    <div class="card-body">
+                        <!--Name-->
+                        <h4 class="font-weight-bold mb-4">John Doe</h4>
+                        <hr>
+                        <!--Quotation-->
+                        <p class="dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <!--Card-->
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+                <!--Card-->
+                <div class="card testimonial-card">
+                    <!--Background color-->
+                    <div class="card-up blue-gradient">
+                    </div>
+                    <!--Avatar-->
+                    <div class="avatar mx-auto white">
+                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg"
+                            class="rounded-circle img-fluid">
+                    </div>
+                    <div class="card-body">
+                        <!--Name-->
+                        <h4 class="font-weight-bold mb-4">Anna Aston</h4>
+                        <hr>
+                        <!--Quotation-->
+                        <p class="dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>Neque cupiditate assumenda
+                            in
+                            maiores repudiandae mollitia architecto.</p>
+                    </div>
+                </div>
+                <!--Card-->
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6">
+                <!--Card-->
+                <div class="card testimonial-card">
+                    <!--Background color-->
+                    <div class="card-up indigo"></div>
+                    <!--Avatar-->
+                    <div class="avatar mx-auto white">
+                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg"
+                            class="rounded-circle img-fluid">
+                    </div>
+                    <div class="card-body">
+                        <!--Name-->
+                        <h4 class="font-weight-bold mb-4">Maria Kate</h4>
+                        <hr>
+                        <!--Quotation-->
+                        <p class="dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>Delectus impedit saepe
+                            officiis
+                            ab aliquam repellat rem unde ducimus.</p>
+                    </div>
+                </div>
+                <!--Card-->
+            </div>
+            <!--Grid column-->
+
+        </div>
+        <!-- Grid row -->
+
+    </section>
+    <!-- Section: Testimonials v.1 -->
+
+        <!-- FOR NEWS SUBSCRIPTION -->
+
+
+        <div>
+            <h1 class="productCategories">Testimonals</h1>
+            <hr style="height: 5px; background-color: green; width: 20%;">
+        </div>
+<section class="home-newsletter">
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-12">
+        <div class="single">
+            <h2>Subscribe to our Newsletter</h2>
+        <div class="input-group">
+             <input type="email" class="form-control" placeholder="Enter your email">
+             <span class="input-group-btn">
+             <button class="btn btn-theme" type="submit">Subscribe</button>
+             </span>
+              </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </section>
+
+        <div style="background-color: white; width: 100%; height: 60px;">
+
+        </div>
+        
+    <!-- FOR FOOTER  -->
+
+    <section id="footer">
+		<div class="container">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Quick links</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Quick links</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Quick links</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+						<li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-google-plus"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+				<hr>
+			</div>	
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p><u><a href="https://www.nationaltransaction.com/">National Transaction Corporation</a></u> is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p>
+					<p class="h6">© All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Sunlimetech</a></p>
+				</div>
+				<hr>
+			</div>	
+		</div>
+	</section>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="script/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+
+</html>

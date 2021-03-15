@@ -1,0 +1,23 @@
+
+.headingDivOfPost{
+    background-color: green;
+    width: 100%;
+    height: 200px;
+}
+
+
+.post-heading{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    padding-top: 90px;
+
+}
+
+#For-AdPost-Div{
+    background-color: white;
+    height: 700px;
+}
+.col{
+    border: 1px solid black;
+}
